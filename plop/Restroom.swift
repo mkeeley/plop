@@ -24,7 +24,9 @@ class Restroom {
     
     func remRev(id: String) -> Review {
         var pos: Int! = find(revs.map {$0.id}, id);
-        return revs.removeAtIndex(pos);
+        var rev = revs.removeAtIndex(pos);
+        computeAvg();
+        return rev;
     }
     
     func getRev(id: String) -> Review {

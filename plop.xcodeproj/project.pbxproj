@@ -18,6 +18,7 @@
 		708D31061AA95EC700E972B0 /* Restroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708D31051AA95EC700E972B0 /* Restroom.swift */; };
 		708D31081AA95EF600E972B0 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708D31071AA95EF600E972B0 /* Review.swift */; };
 		708D310A1AA95FDD00E972B0 /* RestroomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708D31091AA95FDD00E972B0 /* RestroomManager.swift */; };
+		70D0E1101AAE1E2F001C00BD /* test_review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D0E10F1AAE1E2F001C00BD /* test_review.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		708D31051AA95EC700E972B0 /* Restroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restroom.swift; sourceTree = "<group>"; };
 		708D31071AA95EF600E972B0 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		708D31091AA95FDD00E972B0 /* RestroomManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestroomManager.swift; sourceTree = "<group>"; };
+		70D0E10F1AAE1E2F001C00BD /* test_review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test_review.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		708D30DD1AA95E7600E972B0 /* plop */ = {
 			isa = PBXGroup;
 			children = (
+				70D0E1111AAE2439001C00BD /* tests */,
 				708D30E01AA95E7600E972B0 /* AppDelegate.swift */,
 				708D31051AA95EC700E972B0 /* Restroom.swift */,
 				708D31091AA95FDD00E972B0 /* RestroomManager.swift */,
@@ -125,6 +128,14 @@
 				708D30FA1AA95E7600E972B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70D0E1111AAE2439001C00BD /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				70D0E10F1AAE1E2F001C00BD /* test_review.swift */,
+			);
+			name = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 				708D30E11AA95E7600E972B0 /* AppDelegate.swift in Sources */,
 				708D310A1AA95FDD00E972B0 /* RestroomManager.swift in Sources */,
 				708D30E61AA95E7600E972B0 /* MasterViewController.swift in Sources */,
+				70D0E1101AAE1E2F001C00BD /* test_review.swift in Sources */,
 				708D30E81AA95E7600E972B0 /* DetailViewController.swift in Sources */,
 				708D31081AA95EF600E972B0 /* Review.swift in Sources */,
 			);
@@ -427,6 +439,7 @@
 				708D31011AA95E7600E972B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		708D31021AA95E7600E972B0 /* Build configuration list for PBXNativeTarget "plopTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +448,7 @@
 				708D31041AA95E7600E972B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

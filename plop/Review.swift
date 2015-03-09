@@ -24,12 +24,22 @@ class Review {
     }
     
     func editRev(details: String, clean: Double, space: Double, feat: Double) {
+        assert(clean >= 0 && clean <= 5);
+        assert(space >= 0 && space <= 5);
+        assert(feat >= 0 && feat <= 5);
+        
         if(!details.isEmpty) {
             self.details = details;
         }
         self.clean  = clean;
         self.space  = space;
         self.feat   = feat;
+    }
+    
+    func editRev(details: String) {
+        if(!details.isEmpty) {
+            self.details = details;
+        }
     }
     
     func getClean() -> Double {
@@ -49,5 +59,9 @@ class Review {
 
     func getId() -> String {
         return self.id;
+    }
+    
+    deinit {
+        println("deinit review: \(self.getId())");
     }
 }
